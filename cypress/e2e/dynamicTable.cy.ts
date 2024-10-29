@@ -10,6 +10,6 @@ describe ('Dynamic Table', () => {
 
     it('locate firefox', () => {
         onHomePage.dynamicTablesPage()
-
+        cy.openHomePage()
     })
 })
